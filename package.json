@@ -1,0 +1,24 @@
+{
+  "name": "http_redirection_and_requests",
+  "version": "1.0.0",
+  "description": "======================================= README of http_redirection_and_requests =======================================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlyoleg/http_redirection_and_requests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlyoleg/http_redirection_and_requests/issues"
+  },
+  "homepage": "https://github.com/charlyoleg/http_redirection_and_requests#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "live-server": "^1.2.1"
+  }
+}
