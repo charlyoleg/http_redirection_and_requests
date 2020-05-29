@@ -9,6 +9,7 @@
     "build_docs": "pipenv run sphinx-build -b html docs/ docs/build/",
     "view_docs": "sensible-browser docs/build/index.html",
     "docs": "run-s clean_docs build_docs view_docs",
+    "http_requests": "py_requests/http_requests.py",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
