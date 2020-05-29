@@ -1,0 +1,7 @@
+# .gitignore for http_redirection_and_requests
+*~
+*.swp
+node_modules
+.venv
+docs/build/
+*.pdf
