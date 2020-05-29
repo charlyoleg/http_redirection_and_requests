@@ -16,7 +16,13 @@ The following http request methods are tested:
 
   - nodejs
 
-    - fetch
+    - standard-module https
+    - request
+    - needle
+    - got
+    - axios
+    - superagent
+    - node-fetch
 
   - browser-javascript
 
