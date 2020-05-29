@@ -20,7 +20,7 @@ The following http request methods are tested:
 
   - browser-javascript
 
-    -fetch
+    - fetch
 
   - cli
 

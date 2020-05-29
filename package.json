@@ -9,7 +9,9 @@
     "build_docs": "pipenv run sphinx-build -b html docs/ docs/build/",
     "view_docs": "sensible-browser docs/build/index.html",
     "docs": "run-s clean_docs build_docs view_docs",
-    "http_requests": "py_requests/http_requests.py",
+    "use_py_requests": "py_requests/http_requests.py",
+    "use_curl": "curl -k -L https://ZZZ.LocalHost:8443/aa",
+    "use_wget": "wget --no-check-certificate -qO- https://ZZZ.LocalHost:8443/aa",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
