@@ -28,6 +28,8 @@ The following http request methods are tested:
   - browser-javascript
 
     - fetch
+    - axios
+    - superagent
 
   - cli
 

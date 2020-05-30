@@ -27,6 +27,8 @@ nodejs        axios
 nodejs        superagent
 nodejs        node-fetch
 browser-js    fetch                 Yes
+browser-js    axios
+browser-js    superagent
 shell         curl                  Yes                 with -L
 shell         wget                  Yes
 ===========   ================      ================    =========================================================
