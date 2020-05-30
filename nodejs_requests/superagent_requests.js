@@ -11,7 +11,7 @@ superagent.get('https://ZZZ.LocalHost:8443/aa')
       return console.log(err);
   }
 
-  console.log('payload: ' + res.body);
+  console.log('payload: ' + res.text);
 
 });
 

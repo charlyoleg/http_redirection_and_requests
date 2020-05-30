@@ -20,6 +20,11 @@
     "use_py_requests": "py_requests/http_requests.py",
     "use_nodejs_standard_https": "node nodejs_requests/standard_https_requests.js",
     "use_nodejs_request": "node nodejs_requests/request_requests.js",
+    "use_nodejs_axios": "node nodejs_requests/axios_requests.js",
+    "use_nodejs_got": "node nodejs_requests/got_requests.js",
+    "use_nodejs_needle": "node nodejs_requests/needle_requests.js",
+    "use_nodejs_node_fetch": "node nodejs_requests/node_fetch_requests.js",
+    "use_nodejs_superagent": "node nodejs_requests/superagent_requests.js",
     "use_curl": "curl -k -L https://ZZZ.LocalHost:8443/aa",
     "use_wget": "wget --no-check-certificate -qO- https://ZZZ.LocalHost:8443/aa",
     "test": "echo \"Error: no test specified\" && exit 1"
