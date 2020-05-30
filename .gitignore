@@ -6,3 +6,4 @@ node_modules
 docs/build/
 *.pdf
 web/dist/
+backend/host_registry
