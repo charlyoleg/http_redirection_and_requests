@@ -17,6 +17,7 @@ The following http request methods are tested:
   - nodejs
 
     - standard-module https
+    - follow-redirects
     - request
     - needle
     - got

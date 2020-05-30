@@ -14,13 +14,20 @@ Results
 
 Below the results for http-get requests:
 
-===========   ================      ================    ===============
+===========   ================      ================    =========================================================
 context       tool                  Follow redirect     Comments
-===========   ================      ================    ===============
+===========   ================      ================    =========================================================
 python        requests              Yes
-nodejs        fetch
-browser-js    fetch
+nodejs        standard https        No                  not working, also with option {followAllRedirects: true}
+nodejs        follow-redirects      Yes
+nodejs        request
+nodejs        needle
+nodejs        got
+nodejs        axios
+nodejs        superagent
+nodejs        node-fetch
+browser-js    fetch                 Yes
 shell         curl                  Yes                 with -L
 shell         wget                  Yes
-===========   ================      ================    ===============
+===========   ================      ================    =========================================================
 
