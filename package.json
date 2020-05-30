@@ -18,6 +18,8 @@
     "serve_web": "live-server web/dist/",
     "start_web": "run-s clean_web build_web serve_web",
     "use_py_requests": "py_requests/http_requests.py",
+    "use_nodejs_standard_https": "node nodejs_requests/standard_https_requests.js",
+    "use_nodejs_request": "node nodejs_requests/request_requests.js",
     "use_curl": "curl -k -L https://ZZZ.LocalHost:8443/aa",
     "use_wget": "wget --no-check-certificate -qO- https://ZZZ.LocalHost:8443/aa",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -35,7 +37,8 @@
   "homepage": "https://github.com/charlyoleg/http_redirection_and_requests#readme",
   "dependencies": {
     "follow-redirects": "^1.11.0",
-    "live-server": "^1.2.1"
+    "live-server": "^1.2.1",
+    "request": "^2.88.2"
   },
   "devDependencies": {
     "@types/node": "^14.0.5",
