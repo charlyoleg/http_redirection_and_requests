@@ -2,9 +2,6 @@
 
 const request = require('request');
 
-// to avoid 'Error: self signed certificate'
-//process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
-
 const options = {
   rejectUnauthorized: false
 }

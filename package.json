@@ -40,7 +40,8 @@
     "follow-redirects": "^1.11.0",
     "live-server": "^1.2.1",
     "needle": "^2.5.0",
-    "request": "^2.88.2"
+    "request": "^2.88.2",
+    "superagent": "^5.2.2"
   },
   "devDependencies": {
     "@types/node": "^14.0.5",

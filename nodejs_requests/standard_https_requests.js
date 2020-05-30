@@ -3,18 +3,15 @@
 //const https = require('https');
 const { https } = require('follow-redirects');
 
-// to avoid 'Error: self signed certificate'
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
-
 // for following redirection: it doesn't work :(
-//const options = {
-//  followAllRedirects: true,
-//  followOriginalHttpMethod: true
-//}
+const options = {
+  //followAllRedirects: true,
+  //followOriginalHttpMethod: true,
+  rejectUnauthorized: false,
+}
 
 
-//https.get('https://ZZZ.LocalHost:8443/aa', options, (resp) => {
-https.get('https://ZZZ.LocalHost:8443/aa', (resp) => {
+https.get('https://ZZZ.LocalHost:8443/aa', options, (resp) => {
   let payload = '';
 
   // called when a data chunk is received.
