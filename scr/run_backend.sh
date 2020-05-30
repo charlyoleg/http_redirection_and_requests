@@ -4,4 +4,5 @@
 git clone https://github.com/charlyoleg/host_registry.git backend/host_registry
 cd backend/host_registry
 npm i
-npm run start_hrs
+npm run build_all
+npm run serve_all_dev

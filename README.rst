@@ -47,10 +47,7 @@ In a first bash-terminal::
 
 In a second bast-terminal::
 
-  git clone https://github.com/charlyoleg/host_registry
-  cd host_registry
-  npm i
-  npm run start_hrs
+  npm run run_backend
 
 
 Back to the first bash-terminal::
