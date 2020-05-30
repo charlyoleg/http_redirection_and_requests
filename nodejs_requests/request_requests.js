@@ -3,9 +3,13 @@
 const request = require('request');
 
 // to avoid 'Error: self signed certificate'
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
+//process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
-request.get('https://ZZZ.LocalHost:8443/aa', (err, res, body) => {
+const options = {
+  rejectUnauthorized: false
+}
+
+request.get('https://ZZZ.LocalHost:8443/aa', options, (err, res, body) => {
   if (err) {
     return console.log(err);
   }
