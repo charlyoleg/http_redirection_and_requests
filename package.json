@@ -9,6 +9,13 @@
     "build_docs": "pipenv run sphinx-build -b html docs/ docs/build/",
     "view_docs": "sensible-browser docs/build/index.html",
     "docs": "run-s clean_docs build_docs view_docs",
+    "clean_web": "rm -fr web/dist",
+    "build_html": "pug --pretty --out web/dist/ web/routes",
+    "build_css": "sass web/sass/redreq_style.scss web/dist/redreq_style.css",
+    "build_js": "tsc --project web/ts",
+    "build_web": "run-s build_html build_css build_js",
+    "serve_web": "live-server web/dist/",
+    "start_web": "run-s clean_web build_web serve_web",
     "use_py_requests": "py_requests/http_requests.py",
     "use_curl": "curl -k -L https://ZZZ.LocalHost:8443/aa",
     "use_wget": "wget --no-check-certificate -qO- https://ZZZ.LocalHost:8443/aa",
@@ -34,6 +41,8 @@
     "@types/node": "^14.0.5",
     "cpy-cli": "^3.1.1",
     "npm-run-all": "^4.1.5",
+    "pug-cli": "^1.0.0-alpha6",
+    "sass": "^1.26.7",
     "typescript": "^3.9.3"
   }
 }

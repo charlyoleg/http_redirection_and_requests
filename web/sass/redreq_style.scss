@@ -1,0 +1,47 @@
+/* redreq_style.scss */
+// a comment not visible in the css output
+
+// ============================
+// reset - base
+// ============================
+
+// html {
+:root {
+  text-align: left;
+  font-size: 16px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+}
+
+body {
+  background-color: grey;
+  scroll-behavior: smooth;
+}
+
+
+// ============================
+// main
+// ============================
+
+h1 {
+  background-color: purple;
+}
+
+section {
+  background-color: yellow;
+}
+
+section > h2 {
+  background-color: orange;
+}
+
+section > button {
+  background-color: orange;
+}
+
+section > p {
+  background-color: orange;
+}
+
