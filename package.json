@@ -46,7 +46,7 @@
     "got": "^11.1.4",
     "live-server": "^1.2.1",
     "needle": "^2.5.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "request": "^2.88.2",
     "superagent": "^5.2.2"
   },
