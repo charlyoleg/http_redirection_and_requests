@@ -41,7 +41,7 @@
   },
   "homepage": "https://github.com/charlyoleg/http_redirection_and_requests#readme",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "follow-redirects": "^1.11.0",
     "got": "^11.1.4",
     "live-server": "^1.2.1",
