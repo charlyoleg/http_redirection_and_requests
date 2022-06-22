@@ -43,7 +43,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "follow-redirects": "^1.11.0",
-    "got": "^11.1.4",
+    "got": "^11.8.5",
     "live-server": "^1.2.1",
     "needle": "^2.5.0",
     "node-fetch": "^2.6.0",
